@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="./jquery-3.7.1.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("div").animate({
+                    height: 'toggle'
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <p>predefined values animate</p>
+    <button>start animation</button>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat enim saepe labore culpa illum, dolores quod
+        molestias, maxime ipsa minima nostrum quaerat pariatur ad sed quae aliquam dignissimos similique natus impedit.
+        Error, commodi nemo? Harum id, dolores minus aut, animi accusamus modi explicabo soluta accusantium porro iure
+        minima quos tempora.</p>
+
+    <div style="background: #98bf21;height: 100px;width:100px;position: absolute;"></div>
+</body>
+
+</html>
